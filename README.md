@@ -11,7 +11,7 @@ $ reboot
 ```
 После перезапуска получаем обновленные зеркала и систему.
 
-### Установка драйверов для видеокарты
+## Установка драйверов для видеокарты
 ```sh
 $ manjaro-settings-manager
 ```
@@ -52,7 +52,7 @@ $ sudo sh install.sh
 $ rm -rf ~/theme-cache
 ```
 
-### Установка Oh My Zsh для терминала
+## Установка Oh My Zsh для терминала
 ```sh
 $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
@@ -70,7 +70,7 @@ $ git clone https://github.com/zsh-users/zsh-autosuggestions.git
 $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 ```
 
-### Переименование рабочих папок (Загрузки -> download, Документы -> documents, и т.д.)
+## Переименование рабочих папок (Загрузки -> download, Документы -> documents, и т.д.)
 ```sh
 $ mv ~/Документы ~/documents
 $ mv ~/Загрузки ~/download
