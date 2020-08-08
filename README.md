@@ -73,7 +73,7 @@ $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 ### Переименование рабочих папок (Загрузки -> download, Документы -> documents, и т.д.)
 ```sh
 $ mv ~/Документы ~/documents
-$ mv ~/Загрузки ~/donwload
+$ mv ~/Загрузки ~/download
 $ mv ~/Рабочий\ стол ~/desktop
 $ mv ~/Шаблоны ~/templates
 $ mv ~/Изображения ~/pictures
