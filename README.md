@@ -85,3 +85,8 @@ $ mv ~/Видео ~/videos
 ```sh
 $ echo -e "XDG_DESKTOP_DIR=\"\$HOME/desktop\"\nXDG_DOWNLOAD_DIR=\"\$HOME/download\"\nXDG_TEMPLATES_DIR=\"\$HOME/templates\"\nXDG_PUBLICSHARE_DIR=\"\$HOME/share\"\nXDG_DOCUMENTS_DIR=\"\$HOME/documents\"\nXDG_MUSIC_DIR=\"\$HOME/music\"\nXDG_PICTURES_DIR=\"\$HOME/pictures\"\nXDG_VIDEOS_DIR=\"\$HOME/videos\"" > ~/.config/user-dirs.dirs
 ```
+
+## Установка разширений для Gnome
+[Screenshot tool](https://extensions.gnome.org/extension/1112/screenshot-tool/)
+[Sound Input & Output Device Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/)
+[Tweaks in System Menu](https://extensions.gnome.org/extension/1653/tweaks-in-system-menu/)
