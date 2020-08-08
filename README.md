@@ -69,3 +69,19 @@ $ cd ~/.oh-my-zsh/custom/plugins
 $ git clone https://github.com/zsh-users/zsh-autosuggestions.git
 $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 ```
+
+### Переименование рабочих папок (Загрузки -> download, Документы -> documents, и т.д.)
+```sh
+$ mv ~/Документы ~/documents
+$ mv ~/Загрузки ~/donwload
+$ mv ~/Рабочий\ стол ~/desktop
+$ mv ~/Шаблоны ~/templates
+$ mv ~/Изображения ~/pictures
+$ mv ~/Музыка ~/music
+$ mv ~/Общедоступные ~/share
+$ mv ~/Видео ~/videos
+```
+Также изменяем содержимое файла ~/.config/user-dirs.dirs:
+```sh
+$ echo -e "XDG_DESKTOP_DIR=\"\$HOME/desktop\"\nXDG_DOWNLOAD_DIR=\"\$HOME/download\"\nXDG_TEMPLATES_DIR=\"\$HOME/templates\"\nXDG_PUBLICSHARE_DIR=\"\$HOME/share\"\nXDG_DOCUMENTS_DIR=\"\$HOME/documents\"\nXDG_MUSIC_DIR=\"\$HOME/music\"\nXDG_PICTURES_DIR=\"\$HOME/pictures\"\nXDG_VIDEOS_DIR=\"\$HOME/videos\"" > ~/.config/user-dirs.dirs
+```
