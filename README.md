@@ -93,8 +93,9 @@ $ echo -e "XDG_DESKTOP_DIR=\"\$HOME/desktop\"\nXDG_DOWNLOAD_DIR=\"\$HOME/downloa
 
 ## Установка Yay:
 ```sh
-$ git clone https://aur.archlinux.org/yay.git
+$ cd ~
 $ sudo pacman -S base-devel
+$ git clone https://aur.archlinux.org/yay.git
 $ cd yay
 $ makepkg -si
 $ cd ..
