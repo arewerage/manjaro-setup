@@ -90,3 +90,14 @@ $ echo -e "XDG_DESKTOP_DIR=\"\$HOME/desktop\"\nXDG_DOWNLOAD_DIR=\"\$HOME/downloa
 [Screenshot tool](https://extensions.gnome.org/extension/1112/screenshot-tool/)
 [Sound Input & Output Device Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/)
 [Tweaks in System Menu](https://extensions.gnome.org/extension/1653/tweaks-in-system-menu/)
+
+## Установка Yay:
+```sh
+$ git clone https://aur.archlinux.org/yay.git
+$ sudo pacman -S base-devel
+$ cd yay
+$ makepkg -si
+$ cd ..
+$ rm -rf yay
+```
+
