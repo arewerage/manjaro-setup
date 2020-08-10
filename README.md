@@ -107,3 +107,6 @@ $ rm -rf yay
 pamac-manager 
 ```
 Далее "neovim" в поиске -> "Установить" (При установке советую выбрать все доп. зависимости)
+
+# TODO: yay -S ttf-jetbrains-mono
+# TODO: git clone https://github.com/vinceliuice/Orchis-theme
