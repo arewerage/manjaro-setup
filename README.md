@@ -19,6 +19,11 @@ manjaro-settings-manager
 sudo pacman -S base-devel
 ```
 
+#### Для восстановления загрузчика (после установки Windows 10 рядом с Linux):
+```sh
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
+
 #### Установка консольного помошника Yay:
 ```sh
 git clone https://aur.archlinux.org/yay.git \
@@ -85,6 +90,15 @@ mv ~/Документы ~/documents \
 && mv ~/Видео ~/videos \
 && echo -e "XDG_DESKTOP_DIR=\"\$HOME/desktop\"\nXDG_DOWNLOAD_DIR=\"\$HOME/download\"\nXDG_TEMPLATES_DIR=\"\$HOME/templates\"\nXDG_PUBLICSHARE_DIR=\"\$HOME/share\"\nXDG_DOCUMENTS_DIR=\"\$HOME/documents\"\nXDG_MUSIC_DIR=\"\$HOME/music\"\nXDG_PICTURES_DIR=\"\$HOME/pictures\"\nXDG_VIDEOS_DIR=\"\$HOME/videos\"" > ~/.config/user-dirs.dirs \
 && reboot
+```
+
+#### Установка темы для загрузчика Grub2:
+```sh
+git clone https://github.com/vinceliuice/grub2-themes.git \
+&& cd grub2-theme \
+&& ./install.sh -t \
+&& cd .. \
+&& rm -rf grub2-theme
 ```
 
 ## 3. Установка дополнений Gnome:
