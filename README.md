@@ -105,3 +105,4 @@ git clone https://github.com/vinceliuice/grub2-themes.git \
 [Screenshot tool](https://extensions.gnome.org/extension/1112/screenshot-tool/)
 [Sound Input & Output Device Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/)
 [Tweaks in System Menu](https://extensions.gnome.org/extension/1653/tweaks-in-system-menu/)
+[Panel OSD](https://extensions.gnome.org/extension/708/panel-osd/)
