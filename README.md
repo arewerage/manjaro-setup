@@ -28,7 +28,7 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```sh
 git clone https://aur.archlinux.org/yay.git \
 && cd yay \
-&& makepkg -Si \
+&& makepkg -si \
 && cd .. \
 && rm -rf yay
 ```
